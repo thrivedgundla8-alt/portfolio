@@ -7,6 +7,9 @@ import Experience from "./components/Experience";
 import Recognition from "./components/Recognition";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Cursor from "./components/Cursor";
+import BackToTop from "./components/BackToTop";
+import Preloader from "./components/Preloader";
 
 function App() {
   const { scrollYProgress } = useScroll();
@@ -18,6 +21,8 @@ function App() {
 
   return (
     <>
+      <Preloader />
+      <Cursor />
       <motion.div
         style={{ scaleX }}
         className="fixed top-0 left-0 right-0 h-[3px] origin-left bg-accent z-[60]"
@@ -33,6 +38,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
+      <BackToTop />
     </>
   );
 }
