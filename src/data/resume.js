@@ -1,14 +1,14 @@
 export const profile = {
   name: "Thrived Gundla",
   role: "Software Engineer",
-  taglineParts: ["Java", "React", "Spring Boot"],
+  taglineParts: ["Java", "Angular", "Spring Boot"],
   email: "thrivedgundla8@gmail.com",
   phone: "+91 7095722924",
   location: "Hyderabad, India",
   linkedin: "https://linkedin.com/in/thrived-gundla-5082303a0/",
   resumeFile: "/portfolio/Thrived_Gundla_Resume.docx",
   summary:
-    "Java Full Stack Developer with 5 years of experience designing and building enterprise-grade web applications using Java, Spring Boot, React, Microservices, REST APIs, and SQL databases. Skilled in scalable backend services, responsive front-ends, event-driven architecture with Apache Kafka, and containerized deployments with Docker and Kubernetes. Fluent in Agile delivery, CI/CD, JUnit, Mockito, and AI-assisted engineering with GitHub Copilot, Claude, and ChatGPT.",
+    "Java Full Stack Developer with 5 years of experience designing and building enterprise-grade web applications using Java, Spring Boot, Angular, Microservices, REST APIs, and SQL databases. Skilled in scalable backend services, responsive front-ends, event-driven architecture with Apache Kafka, and containerized deployments with Docker and Kubernetes. Fluent in Agile delivery, CI/CD, JUnit, Mockito, and AI-assisted engineering with GitHub Copilot, Claude, and ChatGPT.",
   yearsExperience: 5,
 };
 
@@ -30,7 +30,7 @@ export const skillGroups = [
   },
   {
     title: "Frontend",
-    items: ["React.js", "Angular", "HTML5", "CSS3", "SCSS", "Bootstrap", "RxJS"],
+    items: ["Angular", "HTML5", "CSS3", "SCSS", "Bootstrap", "RxJS"],
   },
   {
     title: "Database",
@@ -79,7 +79,7 @@ export const experience = [
         name: "Access — MeridianLink",
         stack: [
           "Java",
-          "React",
+          "Angular",
           "Spring Boot",
           "Hibernate",
           "SCSS",
@@ -95,7 +95,7 @@ export const experience = [
           "A highly configurable, touchless point-of-sale solution for account opening and loan origination, enabling optimized digital lending workflows, customizable application layouts, and seamless partner integrations.",
         contributions: [
           "Developed and maintained Spring Boot microservices and RESTful APIs for digital lending and account opening workflows.",
-          "Built reusable React components with Reactive Forms and integrated them with backend APIs.",
+          "Built reusable Angular components with Reactive Forms and integrated them with backend APIs.",
           "Implemented the Saga Design Pattern and integrated Apache Kafka for event-driven communication, enabling reliable distributed transactions.",
           "Implemented JUnit-based unit tests to validate backend business logic and ensure maintainable microservices.",
           "Containerized applications using Docker and supported deployments in Kubernetes environments.",

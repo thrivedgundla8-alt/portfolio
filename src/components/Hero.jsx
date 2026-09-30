@@ -17,7 +17,7 @@ const item = {
 };
 
 const badges = [
-  { label: "React.js", pos: "top-32 right-[6%] xl:right-[10%]", delay: 0.6 },
+  { label: "Angular", pos: "top-32 right-[6%] xl:right-[10%]", delay: 0.6 },
   { label: "Apache Kafka", pos: "top-[40%] right-[4%] xl:right-[8%]", delay: 1.8 },
   { label: "Docker", pos: "top-[38%] left-[3%] xl:left-[6%]", delay: 2.4 },
   { label: "Spring Boot", pos: "top-[58%] right-[10%] xl:right-[16%]", delay: 1.2 },

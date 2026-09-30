@@ -12,7 +12,7 @@ const pillars = [
   {
     icon: FiMonitor,
     title: "Frontend Craft",
-    desc: "Reusable, tested React component systems built for real production workflows — from lending platforms to tender lifecycle tools.",
+    desc: "Reusable, tested Angular component systems built for real production workflows — from lending platforms to tender lifecycle tools.",
   },
   {
     icon: FiBox,
