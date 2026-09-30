@@ -15,9 +15,8 @@ function ProjectCard({ project, index }) {
       <motion.div
         whileHover={{ y: -3 }}
         transition={{ duration: 0.25 }}
-        className="group relative rounded-2xl border border-ink/10 bg-paper p-6 md:p-8 hover:border-transparent hover:shadow-[0_20px_45px_-20px_rgba(255,75,31,0.35)] transition-all"
+        className="group relative rounded-2xl border border-ink/10 bg-paper p-6 md:p-8 hover:border-accent/40 hover:shadow-[0_20px_45px_-20px_rgba(255,75,31,0.35)] transition-all"
       >
-        <div className="pointer-events-none absolute -inset-px rounded-2xl bg-gradient-to-r from-accent/40 via-accent-2/40 to-accent/40 opacity-0 group-hover:opacity-100 transition-opacity [mask:linear-gradient(#000,#000)_content-box,linear-gradient(#000,#000)] [mask-composite:exclude] p-px" />
         <button
           onClick={() => setOpen((o) => !o)}
           className="relative w-full flex items-start justify-between gap-4 text-left"
