@@ -1,6 +1,6 @@
 export const profile = {
   name: "Thrived Gundla",
-  role: "Software Engineer",
+  role: "Senior Software Engineer",
   taglineParts: ["Java", "Angular", "Spring Boot"],
   email: "thrivedgundla8@gmail.com",
   phone: "+91 7095722924",
@@ -72,7 +72,7 @@ export const experience = [
   {
     company: "Bhavna Corp",
     location: "Hyderabad",
-    role: "Software Engineer",
+    role: "Senior Software Engineer",
     period: "Sep 2021 — Present",
     projects: [
       {
